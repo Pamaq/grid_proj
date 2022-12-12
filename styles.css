@@ -1,0 +1,13 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(133, 90, 90);
+	border: 1px solid black;
+}
+.basic-grid {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
